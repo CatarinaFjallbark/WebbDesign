@@ -1,0 +1,148 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: 'Helvetica', Sans-Serif;
+ color: black;
+}
+div#wrap {
+ width: 960px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0px;
+ background-color: #ede2ce;
+}
+div#nav {
+ float: right;
+ line-height: 70px;
+ background: rgba(0, 0, 0, 0.7);
+}
+div#main {
+ margin: 40px;
+}
+div#footer {
+ background: rgba(0, 0, 0, 0.85);
+}
+h1 {
+ font-size: 20px;
+ letter-spacing: -1px;  
+}
+h2 {
+ font-size: 16px;
+ letter-spacing: -1px;  
+}
+p {
+ font-size: 12px;
+ line-height: 18px;
+}
+a:link {
+ text-decoration: none;
+ width: 100px;
+}
+a#mail {
+ color: #ede2ce;
+ background-color: #649f35;
+ margin: 20px;
+ padding: 20px;
+ display: inline-block;
+ text-align: center;
+}
+a#mailbeach {
+ color: #ede2ce;
+ background-color: #6380a8;
+ margin: 20px;
+ padding: 20px;
+ display: inline-block;
+ text-align: center;
+}
+a#mailtoga {
+ color: #ede2ce;
+ background-color: #c3585a;
+ margin: 20px;
+ padding: 20px;
+ display: inline-block;
+ text-align: center;
+}
+div#nav a#active {
+  background-color: #73b258;
+}
+div#nav a#activebeach {
+  background-color: #7e9fa4;
+}
+div#nav a#activetoga {
+  background-color: #c3585a;
+}
+a#mail:hover {
+  background-color: #73b258;
+}
+a#mailbeach:hover {
+  background-color: #7e9fa4;
+}
+a#mailtoga:hover {
+  background-color: #dd7674;
+}
+.navbutton {
+ color: #ede2ce;
+ font-size: 16px;
+ text-align: center;
+ display: inline-block;
+ letter-spacing: -1px;  
+}
+.navbuttonbeach {
+ color: #ede2ce;
+ font-size: 16px;
+ text-align: center;
+ display: inline-block;
+ letter-spacing: -1px;  
+}
+.navbuttontoga {
+ color: #ede2ce;
+ font-size: 16px;
+ text-align: center;
+ display: inline-block;
+ letter-spacing: -1px;  
+}
+.navbutton:hover {
+  background-color: #649f35;
+}
+.navbuttonbeach:hover {
+  background-color: #9ebda9;
+}
+.navbuttontoga:hover {
+  background-color: #dd7674;
+}
+.navbutton:active {
+  background-color: #649f35;
+}
+.navbuttonbeach:active {
+  background-color: #6380a8;
+}
+#footer {
+    color:#ede2ce;
+    text-align: center;
+}
+#nature { 
+    background:url("nature.png");
+    height:310px;
+}
+#party { 
+    background:url("party.png");
+    height:310px;
+}
+#beach { 
+    background:url("beach.png");
+    height:310px;
+}
+h1#title {
+   position: relative; 
+   top: 70px; 
+   left: 0; 
+   width: 100%; 
+}
+h1 span { 
+   color: #ede2ce; 
+   font: bold; 
+   font-size: 30px;
+   letter-spacing: -1px;  
+   background: rgba(0, 0, 0, 0.7);
+   padding: 15px; 
+}
